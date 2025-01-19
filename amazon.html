@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Dry Fruit Ecommerce Project</title>
+    <title>ShopSphere</title>
 
     <!-- This code is needed for responsive design to work.
       (Responsive design = make the website look good on
@@ -24,9 +24,9 @@
       <div class="amazon-header-left-section">
         <a href="amazon.html" class="header-link">
           <img class="amazon-logo"
-            src="images/amazon-logo-white.png">
+            src="images/shopsphere.png">
           <img class="amazon-mobile-logo"
-            src="images/amazon-mobile-logo-white.png">
+            src="images/shopsphere.png">
         </a>
       </div>
 
@@ -45,7 +45,7 @@
         </a>
 
         <a class="cart-link header-link" href="checkout.html">
-          <img class="cart-icon" src="images/icons/cart-icon.png">
+          <img class="cart-icon" src="images/icons/cart1.png">
           <div class="cart-quantity">0</div>
           <div class="cart-text">Cart</div>
         </a>
@@ -53,10 +53,64 @@
     </div>
     
     <div class="main">
+      <div class="hero-slider">
+        <div class="slide active" style="background-image: url('images/products/sales1.jpeg');">
+          <div class="slide-content">
+            <h2>Big Sale on Electronics!</h2>
+            <p>Up to 50% off on top brands.</p>
+            <a href="#" class="button">Shop Now</a>
+          </div>
+        </div>
+        <div class="slide" style="background-image: url('images/products/sales3.jpeg');">
+          <div class="slide-content">
+            <h2>Fashion Clearance</h2>
+            <p>Trendy outfits at unbeatable prices.</p>
+            <a href="#" class="button">Explore Deals</a>
+          </div>
+        </div>
+        <div class="slide" style="background-image: url('images/products/sales2.jpeg');">
+          <div class="slide-content">
+            <h2>Home & Kitchen Bonanza</h2>
+            <p>Save big on everyday essentials.</p>
+            <a href="#" class="button">Grab Now</a>
+          </div>
+        </div>
+        <div class="slider-controls">
+          <span class="prev">&lt;</span>
+          <span class="next">&gt;</span>
+        </div>
+      </div>
+      
       <div class="products-grid p_grid">
       </div>
     </div>
-
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-section">
+          <h3>About Us</h3>
+          <p>We are dedicated to bringing you the best shopping experience with top-notch products and seamless service.</p>
+        </div>
+        <div class="footer-section">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">FAQs</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Contact Us</h3>
+          <p>Email: support@shopsphere.com</p>
+          <p>Phone: +1 234 567 890</p>
+          <p>Address: 123 Market Street, Suite 100, Ecommerce City</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 QubaSoft. All rights reserved.</p>
+      </div>
+    </footer>
+    
     <script type="module" src="./scripts/amazon.js"></script>
   </body>
 </html>
